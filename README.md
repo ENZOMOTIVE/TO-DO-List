@@ -1,68 +1,58 @@
 # TO DO List
 
-## Project Tags
+> TO DO List is a simple todo list project for practicing browser UI state and styling.
 
-- No requested category tag currently applies.
+## The Story
 
-## Overview
+TO DO List starts with a simple goal: create a browser experience that is simple to open, inspect, and iterate on. The repository is intentionally compact today, so the README focuses on turning the current shape into a clear starting point for the next round of work.
 
-TO DO List is a lightweight todo application or starter project.
+## What It Includes
 
-## Features
+- A browser-first experience that can run as a static page.
 
-- Backend service, API, websocket, bot, or server workflow
-- Static browser UI that can run without a backend
+## How It Is Put Together
 
-## Tech Stack
+| Path | Role |
+| --- | --- |
+| `index.html` | static browser entry point |
+| `index.js` | JavaScript source |
+| `style.css` | project file or folder |
 
-- JavaScript
-- HTML
-- CSS
-
-## Project Structure
-
-- `index.html` - static app entry point
-- `index.js` - project file or directory
-- `style.css` - project file or directory
-
-## Getting Started
-
-### Prerequisites
-
-- Git
-
-### Setup and Run
+## Local Development
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/TO-DO-List.git
 cd TO-DO-List
 ```
 
-For static pages, open `index.html` in a browser or serve the repository with `python3 -m http.server`.
+For static projects, open `index.html` directly or run `python3 -m http.server` from the project folder.
 
-## Commands
+## Command Surface
 
-- No automated command set is declared yet; document commands here as tooling is added.
+The repository does not declare a shared command table yet. Use the local development notes above for the current workflow, then promote repeatable commands here as the project grows.
 
 ## Configuration
 
-- Document required service ports, database URLs, and API credentials before deployment.
+- No runtime secrets are required for the current files. Add an `.env.example` once local configuration becomes part of the project.
 
-## Testing and Quality
+## Quality Checks
 
-- No automated test workflow is declared yet; add tests and document the command here as the project matures.
+- Open the page locally and check the browser console for errors.
 
-## Documentation Notes
+## Where To Take It Next
 
-- Keep this README aligned with the actual source layout and commands.
-- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
-- Update the project tags when the scope changes.
+- Add a short example that shows the project doing its main job from start to finish.
+- Keep setup commands current whenever dependencies, scripts, or deployment targets change.
+- Record important product decisions here so the repository keeps its story as the code evolves.
 
-## Contributing
+## Project Metadata
 
-1. Create a focused branch for the change.
-2. Update code and documentation together.
-3. Run the relevant checks before opening a pull request.
+| Field | Details |
+| --- | --- |
+| Repository | `ENZOMOTIVE/TO-DO-List` |
+| Categories | `General` |
+| Primary stack | JavaScript, HTML, CSS |
+
 
 ## License
 
